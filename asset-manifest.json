@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mumresume/static/css/main.f1163067.css",
+    "main.js": "/mumresume/static/js/main.554e12ce.js",
+    "index.html": "/mumresume/index.html",
+    "main.f1163067.css.map": "/mumresume/static/css/main.f1163067.css.map",
+    "main.554e12ce.js.map": "/mumresume/static/js/main.554e12ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1163067.css",
+    "static/js/main.554e12ce.js"
+  ]
+}

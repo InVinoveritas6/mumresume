@@ -86,6 +86,7 @@ export const List1HeaderPhoto = styled.div`
 export const List1Info = styled.div`
 display: grid;
 grid-template-areas: "education skills" "experience language" "contacts contacts";
+gap: 30px;
 `;
 
 ///Education
@@ -139,7 +140,6 @@ export const List1InfoSkillsTitle = styled.div`
 
 export const List1InfoSkillsBlock = styled.div`
     text-align: justify;
-    font-size: 14px;
 `;
 
 ///Experience

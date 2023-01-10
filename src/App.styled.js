@@ -211,7 +211,7 @@ export const List1InfoContactsLink = styled.a`
   text-decoration: none;
 `
 
-export const SVGIcon = styled.img`
+export const SVGIcon = styled.div`
 grid-area: svg;
 position: relative;
 left: 10px;

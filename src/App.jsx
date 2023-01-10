@@ -1,4 +1,7 @@
 import * as Styled from "./App.styled";
+import LinkendinSVG from "./svg/Linkendin";
+import PhoneSVG from "./svg/Phone";
+import EmailSVG from "./svg/Emai";
 
 function App() {
   return (
@@ -58,17 +61,10 @@ function App() {
                   Skills
                 </Styled.List1InfoSkillsTitle>
                 <Styled.List1InfoSkillsBlock>
-                  Contractual work Civil law Claims work Consultant plus
-                  Representation in court, drafting statements of claim of
-                  various nature Corporate law Foreign economic activity Boss-HR
-                  manager Legal support Drafting claims International law
-                  International brands International contacts Private
-                  international law English PC user Business correspondence
-                  Negotiating Drafting contracts Organizational skills Work in a
-                  team Competent speech Business communication Negotiation of
-                  contracts Work with a large amount of information Personnel
-                  management Project management Documentary support Work with
-                  office equipment Team management
+                  Corporate and Civil law of European countries (Poland, Czech Republic, Great Britain, Russian Federation, Republic of Belarus),
+                  Foreign economic activity, Claims work Representation in court (Republic of Belarus), drafting statements of various claims, Legal and documentary support, International law,
+                  International contacts, English PC user, Business correspondent Negotiating, Drafting contracts, Organizational skills, Work in a team, Competent speech Business communication, Negotiation of contracts, Work with a large
+                  amount of information, Work with office equipment, Team management, International intellectual property and brands, contractual support for the development and purchase of computer programs.
                 </Styled.List1InfoSkillsBlock>
               </Styled.List1InfoSkills>
               <Styled.List1InfoExperience>
@@ -100,17 +96,23 @@ function App() {
             </Styled.List1InfoContactsTitle>
             <Styled.List1InfoContactsBlock>
               <Styled.List1InfoContactsLink href="https://www.linkedin.com/in/alexander-lagodich-aa2726174/">
-                <Styled.SVGIcon src="/img/linkedin-svgrepo-com.svg" />
+                <Styled.SVGIcon>
+                  <LinkendinSVG/>
+                </Styled.SVGIcon>
                 <Styled.TextLink>LinkedIn</Styled.TextLink>
                 <Styled.TextLinkInfo>alexander-lagodich</Styled.TextLinkInfo>
               </Styled.List1InfoContactsLink>
-              <Styled.List1InfoContactsLink href="mailto:n.lagodich@mail.ru">
-                <Styled.SVGIcon src="/img/email-svgrepo-com.svg" />
+              <Styled.List1InfoContactsLink href="mailto:n_lagodich@mail.ru">
+                <Styled.SVGIcon>
+                  <EmailSVG/>
+                </Styled.SVGIcon>
                 <Styled.TextLink>Mail</Styled.TextLink>
-                <Styled.TextLinkInfo>n.lagodich@mail.ru</Styled.TextLinkInfo>
+                <Styled.TextLinkInfo>n_lagodich@mail.ru</Styled.TextLinkInfo>
               </Styled.List1InfoContactsLink>
               <Styled.List1InfoContactsLink href="tel:+375296405404">
-                <Styled.SVGIcon src="/img/phone-svgrepo-com.svg" />
+                <Styled.SVGIcon>
+                  <PhoneSVG/>
+                </Styled.SVGIcon>
                 <Styled.TextLink>Phone</Styled.TextLink>
                 <Styled.TextLinkInfo>+375(29)640-54-04</Styled.TextLinkInfo>
               </Styled.List1InfoContactsLink>
@@ -140,7 +142,7 @@ function App() {
                 </Styled.List2ExperiencesResponsibilities>
                 <Styled.List2ExperiencesInfo>
                 Legal support of business activities and corporate procedures of the TELS GLOBAL group of 
-companies (13 legal entities), including European offices in Poland, the Russian Federation, the 
+companies (13 companies), including European offices in Poland, the Russian Federation, the 
 Czech Republic, the UK, the Republic of Belarus, incl. real estate transactions (purchase and 
 sale, rent), transport expedition agreements between partner companies, legal support for IT-
 direction (purchase of software, license agreements, software creation), organization of work on 
